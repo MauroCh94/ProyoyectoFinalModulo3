@@ -1,0 +1,8 @@
+2026-02-10 19:33:31.236 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-10 19:33:31.243 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-10 19:33:31.244 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-10 19:33:31.245 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-10 19:33:31.246 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-10 19:33:31.246 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-10 22:38:16.654 [main] INFO  com.devmaos.Main - Saliendo...
+2026-02-10 22:38:16.672 [main] INFO  com.devmaos.Main - Gracias por usar el gestor de tareas.
