@@ -14,13 +14,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int opcion = 0;
-        do {/* 
-            System.out.println("1. Agregar tarea");
-            System.out.println("2. Listar tareas");
-            System.out.println("3. Marcar tarea como completada");
-            System.out.println("4. Eliminar tarea");
-            System.out.println("5. Salir");
-            System.out.print("Seleccione una opción: ");*/
+        do {
             try {
                 LOG.info("1. Agregar tarea");
                 LOG.info("2. Listar tareas");
@@ -30,7 +24,7 @@ public class Main {
                 LOG.info("Seleccione una opcion: ");
                 opcion = scanner.nextInt();
             } catch (Exception e) {
-                // TODO Auto-generated catch block
+                
                 if (opcion>5) {
                     LOG.warn("Opcion no valida, Por favor, seleccione una opcion entre 1 y 5.");
                     opcion = 0; // Reiniciar la opción para que el bucle continúe
@@ -45,17 +39,18 @@ public class Main {
             switch (opcion) {
                 case 1:
                     //System.out.print("ID: ");
-                    LOG.info("ID: ");
+                    LOG.info("introduce el ID: ");
                     int id = scanner.nextInt();
                     scanner.nextLine(); // Consumir el salto de línea
-                    LOG.info("Título: ");
+                    LOG.info("escribe el Título: ");
                     String titulo = scanner.nextLine();
-                    LOG.info("Descripción: ");
+                    LOG.info("Descripción tarea : ");
                     String descripcion = scanner.nextLine();
                     servicio.agregarTarea(id, titulo, descripcion,false);
                     break;
                 case 2:
-                    servicio.listaTareas().forEach(System.out::println); // Imprime cada tarea usando su método toString()
+                    LOG.info("Lista de tareas:");
+                    servicio.listaTareas().forEach(tarea -> LOG.info(tarea.toString()));
                     break;
                 case 3:
                     LOG.info("ID de la tarea a marcar como completada: ");

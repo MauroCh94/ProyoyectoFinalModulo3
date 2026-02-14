@@ -17,6 +17,10 @@ public class Tarea {
         return descripcion;
     }
     
+    public String getTitulo() {
+        return titulo;
+    }
+    
     public int getId() {
         return id;
     }
@@ -31,7 +35,6 @@ public class Tarea {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         String estado = completada ? "Completada" : "Pendiente";
         return id + ": " + titulo + " - " + descripcion + " [" + estado + "]";
     }
