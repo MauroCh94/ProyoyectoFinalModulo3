@@ -102,15 +102,22 @@ La aplicación valida automáticamente:
 
 ## Logs
 
-La aplicación genera logs en `logs/` con información detallada de todas las operaciones:
+La aplicación genera logs en el directorio `logs/` con información detallada de todas las operaciones:
 
-- Tareas agregadas
-- Tareas listadas
-- Tareas completadas
-- Tareas eliminadas
-- Errores y validaciones
+### Archivos de Log
 
-Ver configuración en `src/main/resources/log4j2.xml`
+- **logs/app.log** - Archivo principal con todos los logs (INFO, WARN, ERROR, etc.)
+  - Registra: tareas agregadas, listadas, completadas, eliminadas y validaciones
+  - Rotación diaria y por tamaño (máximo 10MB)
+  - Mantiene máximo 7 archivos históricos comprimidos
+
+- **logs/error.log** - Archivo específico para errores y excepciones
+  - Registra: únicamente logs con nivel ERROR y FATAL
+  - Rotación diaria y por tamaño (máximo 10MB)
+  - Mantiene máximo 7 archivos históricos comprimidos
+  - Útil para auditoría y debugging de problemas críticos
+
+Configuración disponible en [src/main/resources/log4j2.xml](src/main/resources/log4j2.xml)
 
 ## Ejemplo de Uso
 

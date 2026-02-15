@@ -36,36 +36,40 @@ public class Main {
 
             scanner.nextLine(); // Consumir el salto de línea
 
-            switch (opcion) {
-                case 1:
-                    //System.out.print("ID: ");
-                    LOG.info("introduce el ID: ");
-                    int id = scanner.nextInt();
-                    scanner.nextLine(); // Consumir el salto de línea
-                    LOG.info("escribe el Título: ");
-                    String titulo = scanner.nextLine();
-                    LOG.info("Descripción tarea : ");
-                    String descripcion = scanner.nextLine();
-                    servicio.agregarTarea(id, titulo, descripcion,false);
-                    break;
-                case 2:
-                    LOG.info("Lista de tareas:");
-                    servicio.listaTareas().forEach(tarea -> LOG.info(tarea.toString()));
-                    break;
-                case 3:
-                    LOG.info("ID de la tarea a marcar como completada: ");
-                    servicio.marcarCompletada(scanner.nextInt());
-                    break;
-                case 4:
-                    LOG.info("ID de la tarea a eliminar: ");
-                    int idEliminar = scanner.nextInt();
-                    servicio.eliminarTarea(idEliminar);
-                    break;
-                case 5:
-                    LOG.info("Saliendo...");
-                    break;
-                default:
-                    LOG.warn("Opción no válida.");
+            try {
+                switch (opcion) {
+                    case 1:
+                        //System.out.print("ID: ");
+                        LOG.info("introduce el ID: ");
+                        int id = scanner.nextInt();
+                        scanner.nextLine(); // Consumir el salto de línea
+                        LOG.info("escribe el Título: ");
+                        String titulo = scanner.nextLine();
+                        LOG.info("Descripción tarea : ");
+                        String descripcion = scanner.nextLine();
+                        servicio.agregarTarea(id, titulo, descripcion,false);
+                        break;
+                    case 2:
+                        LOG.info("Lista de tareas:");
+                        servicio.listaTareas().forEach(tarea -> LOG.info(tarea.toString()));
+                        break;
+                    case 3:
+                        LOG.info("ID de la tarea a marcar como completada: ");
+                        servicio.marcarCompletada(scanner.nextInt());
+                        break;
+                    case 4:
+                        LOG.info("ID de la tarea a eliminar: ");
+                        int idEliminar = scanner.nextInt();
+                        servicio.eliminarTarea(idEliminar);
+                        break;
+                    case 5:
+                        LOG.info("Saliendo...");
+                        break;
+                    default:
+                        LOG.warn("Opción no válida.");
+                }
+            } catch (Exception e) {
+                LOG.error("Error durante la operación: " + e.getMessage());
             }
         } while (opcion != 5);
         LOG.info("Gracias por usar el gestor de tareas.");

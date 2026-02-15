@@ -273,3 +273,214 @@
 2026-02-15 11:07:48.504 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 6
 2026-02-15 11:07:48.505 [main] WARN  com.devmaos.service.tareaservice - Intento de agregar tarea con ID duplicado: 6
 2026-02-15 11:07:48.505 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:21:37.024 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:21:37.029 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:21:37.029 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:21:37.030 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:21:37.030 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:21:37.030 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:21:44.426 [main] INFO  com.devmaos.Main - introduce el ID: 
+2026-02-15 11:21:46.730 [main] INFO  com.devmaos.Main - escribe el Título: 
+2026-02-15 11:21:54.040 [main] INFO  com.devmaos.Main - Descripción tarea : 
+2026-02-15 11:22:00.829 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 1
+2026-02-15 11:22:00.832 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 1
+2026-02-15 11:22:00.833 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:22:00.833 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:22:00.834 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:22:00.835 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:22:00.836 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:22:00.836 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:22:04.330 [main] INFO  com.devmaos.Main - introduce el ID: 
+2026-02-15 11:22:05.681 [main] INFO  com.devmaos.Main - escribe el Título: 
+2026-02-15 11:22:09.887 [main] INFO  com.devmaos.Main - Descripción tarea : 
+2026-02-15 11:22:14.981 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 2
+2026-02-15 11:22:14.982 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 2
+2026-02-15 11:22:14.983 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:22:14.985 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:22:14.986 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:22:14.987 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:22:14.988 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:22:14.988 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:22:18.180 [main] INFO  com.devmaos.Main - Lista de tareas:
+2026-02-15 11:22:18.181 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:22:18.197 [main] INFO  com.devmaos.Main - 1: primera - descripcion [Pendiente]
+2026-02-15 11:22:18.197 [main] INFO  com.devmaos.Main - 2: segunda - descripcion 2 [Pendiente]
+2026-02-15 11:22:18.198 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:22:18.198 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:22:18.199 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:22:18.199 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:22:18.200 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:22:18.200 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:22:37.803 [main] INFO  com.devmaos.Main - ID de la tarea a marcar como completada: 
+2026-02-15 11:22:40.265 [main] INFO  com.devmaos.service.tareaservice - Marcando tarea como completada con ID: 1
+2026-02-15 11:22:40.265 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:22:40.266 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:22:40.267 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:22:40.268 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:22:40.269 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:22:40.270 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:22:43.155 [main] INFO  com.devmaos.Main - Lista de tareas:
+2026-02-15 11:22:43.156 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:22:43.157 [main] INFO  com.devmaos.Main - 1: primera - descripcion [Completada]
+2026-02-15 11:22:43.157 [main] INFO  com.devmaos.Main - 2: segunda - descripcion 2 [Pendiente]
+2026-02-15 11:22:43.158 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:22:43.158 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:22:43.159 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:22:43.159 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:22:43.159 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:22:43.160 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:22:50.136 [main] INFO  com.devmaos.Main - ID de la tarea a eliminar: 
+2026-02-15 11:22:54.502 [main] INFO  com.devmaos.service.tareaservice - Eliminando tarea con ID: 1
+2026-02-15 11:22:54.505 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:22:54.505 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:22:54.506 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:22:54.506 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:22:54.506 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:22:54.507 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:22:58.316 [main] INFO  com.devmaos.Main - ID de la tarea a eliminar: 
+2026-02-15 11:23:00.122 [main] INFO  com.devmaos.service.tareaservice - Eliminando tarea con ID: 3
+2026-02-15 11:23:00.122 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:23:00.122 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:23:00.123 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:23:00.123 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:23:00.123 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:23:00.124 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:23:09.671 [main] INFO  com.devmaos.Main - Lista de tareas:
+2026-02-15 11:23:09.672 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:23:09.672 [main] INFO  com.devmaos.Main - 2: segunda - descripcion 2 [Pendiente]
+2026-02-15 11:23:09.673 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:23:09.673 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:23:09.673 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:23:09.674 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:23:09.674 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:23:09.675 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:23:27.138 [main] INFO  com.devmaos.Main - ID de la tarea a eliminar: 
+2026-02-15 11:23:30.430 [main] INFO  com.devmaos.service.tareaservice - Eliminando tarea con ID: 4
+2026-02-15 11:23:30.430 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:23:30.431 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:23:30.432 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:23:30.434 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:23:30.439 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:23:30.441 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:23:34.290 [main] INFO  com.devmaos.Main - Lista de tareas:
+2026-02-15 11:23:34.291 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:23:34.291 [main] INFO  com.devmaos.Main - 2: segunda - descripcion 2 [Pendiente]
+2026-02-15 11:23:34.291 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:23:34.291 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:23:34.292 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:23:34.292 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:23:34.293 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:23:34.293 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:23:38.521 [main] INFO  com.devmaos.Main - ID de la tarea a marcar como completada: 
+2026-02-15 11:23:41.369 [main] INFO  com.devmaos.service.tareaservice - Marcando tarea como completada con ID: 2
+2026-02-15 11:23:41.370 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:23:41.370 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:23:41.371 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:23:41.371 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:23:41.373 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:23:41.377 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:23:42.737 [main] INFO  com.devmaos.Main - Lista de tareas:
+2026-02-15 11:23:42.737 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:23:42.738 [main] INFO  com.devmaos.Main - 2: segunda - descripcion 2 [Completada]
+2026-02-15 11:23:42.738 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:23:42.738 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:23:42.738 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:23:42.739 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:23:42.739 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:23:42.739 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:23:47.651 [main] INFO  com.devmaos.Main - ID de la tarea a eliminar: 
+2026-02-15 11:23:49.681 [main] INFO  com.devmaos.service.tareaservice - Eliminando tarea con ID: 2
+2026-02-15 11:23:49.681 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:23:49.682 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:23:49.682 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:23:49.682 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:23:49.682 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:23:49.684 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:23:53.211 [main] INFO  com.devmaos.Main - Lista de tareas:
+2026-02-15 11:23:53.211 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:23:53.212 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:23:53.212 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:23:53.214 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:23:53.214 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:23:53.215 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:23:53.215 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:23:56.635 [main] INFO  com.devmaos.Main - Saliendo...
+2026-02-15 11:23:56.635 [main] INFO  com.devmaos.Main - Gracias por usar el gestor de tareas.
+2026-02-15 11:27:38.683 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:27:38.690 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:27:38.690 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:27:38.690 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:27:38.692 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:27:38.692 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:27:46.287 [main] INFO  com.devmaos.Main - ID de la tarea a eliminar: 
+2026-02-15 11:27:48.150 [main] INFO  com.devmaos.service.tareaservice - Eliminando tarea con ID: 1
+2026-02-15 11:27:48.155 [main] WARN  com.devmaos.service.tareaservice - Intento de eliminar tarea no encontrada con ID: 1
+2026-02-15 11:30:10.066 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:30:10.072 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:30:10.072 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:30:10.073 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:30:10.073 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:30:10.073 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:30:13.827 [main] INFO  com.devmaos.Main - ID de la tarea a eliminar: 
+2026-02-15 11:30:17.361 [main] INFO  com.devmaos.service.tareaservice - Eliminando tarea con ID: 1
+2026-02-15 11:30:17.366 [main] WARN  com.devmaos.service.tareaservice - Intento de eliminar tarea no encontrada con ID: 1
+2026-02-15 11:30:17.369 [main] ERROR com.devmaos.Main - Error durante la operación: La tarea a eliminar con ID 1 no existe.
+2026-02-15 11:30:17.374 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:30:17.374 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:30:17.375 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:30:17.376 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:30:17.376 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:30:17.377 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:30:27.634 [main] INFO  com.devmaos.Main - introduce el ID: 
+2026-02-15 11:30:37.397 [main] INFO  com.devmaos.Main - escribe el Título: 
+2026-02-15 11:30:41.176 [main] INFO  com.devmaos.Main - Descripción tarea : 
+2026-02-15 11:30:43.657 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 1
+2026-02-15 11:30:43.659 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 1
+2026-02-15 11:30:43.659 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:30:43.660 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:30:43.660 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:30:43.660 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:30:43.661 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:30:43.661 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:30:45.945 [main] INFO  com.devmaos.Main - Lista de tareas:
+2026-02-15 11:30:45.945 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:30:45.954 [main] INFO  com.devmaos.Main - 1: tarea1  - hhh [Pendiente]
+2026-02-15 11:30:45.955 [main] INFO  com.devmaos.Main - 1. Agregar tarea
+2026-02-15 11:30:45.956 [main] INFO  com.devmaos.Main - 2. Listar tareas
+2026-02-15 11:30:45.962 [main] INFO  com.devmaos.Main - 3. Marcar tarea como completada
+2026-02-15 11:30:45.963 [main] INFO  com.devmaos.Main - 4. Eliminar tarea
+2026-02-15 11:30:45.963 [main] INFO  com.devmaos.Main - 5. Salir
+2026-02-15 11:30:45.964 [main] INFO  com.devmaos.Main - Seleccione una opcion: 
+2026-02-15 11:31:05.679 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 7
+2026-02-15 11:31:05.702 [main] WARN  com.devmaos.service.tareaservice - Título inválido al agregar tarea. ID: 7
+2026-02-15 11:31:05.704 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 8
+2026-02-15 11:31:05.704 [main] WARN  com.devmaos.service.tareaservice - Título inválido al agregar tarea. ID: 8
+2026-02-15 11:31:05.734 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 0
+2026-02-15 11:31:05.734 [main] WARN  com.devmaos.service.tareaservice - ID inválido al agregar tarea: 0
+2026-02-15 11:31:05.736 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: -1
+2026-02-15 11:31:05.737 [main] WARN  com.devmaos.service.tareaservice - ID inválido al agregar tarea: -1
+2026-02-15 11:31:05.743 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 2
+2026-02-15 11:31:05.746 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 2
+2026-02-15 11:31:05.747 [main] INFO  com.devmaos.service.tareaservice - Marcando tarea como completada con ID: 2
+2026-02-15 11:31:05.747 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:31:05.755 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 1
+2026-02-15 11:31:05.755 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 1
+2026-02-15 11:31:05.756 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:31:05.758 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:31:05.764 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 3
+2026-02-15 11:31:05.765 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 3
+2026-02-15 11:31:05.766 [main] INFO  com.devmaos.service.tareaservice - Eliminando tarea con ID: 3
+2026-02-15 11:31:05.772 [main] INFO  com.devmaos.service.tareaservice - Tarea eliminada exitosamente: 3
+2026-02-15 11:31:05.772 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:31:05.779 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 4
+2026-02-15 11:31:05.779 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 4
+2026-02-15 11:31:05.779 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 5
+2026-02-15 11:31:05.781 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 5
+2026-02-15 11:31:05.781 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:31:05.789 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 6
+2026-02-15 11:31:05.790 [main] INFO  com.devmaos.service.tareaservice - Tarea agregada exitosamente: 6
+2026-02-15 11:31:05.791 [main] INFO  com.devmaos.service.tareaservice - Agregando tarea con ID: 6
+2026-02-15 11:31:05.792 [main] WARN  com.devmaos.service.tareaservice - Intento de agregar tarea con ID duplicado: 6
+2026-02-15 11:31:05.793 [main] INFO  com.devmaos.service.tareaservice - Listando todas las tareas
+2026-02-15 11:31:22.890 [main] INFO  com.devmaos.Main - Saliendo...
+2026-02-15 11:31:22.891 [main] INFO  com.devmaos.Main - Gracias por usar el gestor de tareas.

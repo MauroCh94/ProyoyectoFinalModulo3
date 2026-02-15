@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import com.devmaos.model.Tarea;
 import com.devmaos.exceptions.InvalidTareaException;
+import com.devmaos.exceptions.TareaNoEncotradaException;
 
 public class tareaservice {
 
@@ -59,6 +60,16 @@ public class tareaservice {
     }
     public void eliminarTarea(int id) {
         LOG.info("Eliminando tarea con ID: " + id);
+        
+        // Verificar si la tarea existe
+        boolean tareaExiste = tareas.stream().anyMatch(tarea -> tarea.getId() == id);
+        
+        if (!tareaExiste) {
+            LOG.warn("Intento de eliminar tarea no encontrada con ID: " + id);
+            throw new TareaNoEncotradaException("La tarea a eliminar con ID " + id + " no existe.");
+        }
+        
         tareas.removeIf(tarea -> tarea.getId() == id);
+        LOG.info("Tarea eliminada exitosamente: " + id);
     }
 }
