@@ -29,17 +29,18 @@ public class tareaservice {
         }
         if (titulo == null || titulo.trim().isEmpty()) {
             LOG.warn("Título inválido al agregar tarea. ID: {}", id);
-         
+            throw new InvalidTareaException("El título no puede estar vacío.");
+        }
+        
         for (Tarea tarea : tareas) {
             if (tarea.getId() == id) {
                 LOG.warn("Intento de agregar tarea con ID duplicado: " + id);
-
                 throw new InvalidTareaException("Ya existe una tarea con el ID " + id);
             }
         }
-      tareas.add(new Tarea(id, titulo, descripcion));
-      LOG.info("Tarea agregada exitosamente: " + id);
-    }}
+        tareas.add(new Tarea(id, titulo, descripcion));
+        LOG.info("Tarea agregada exitosamente: " + id);
+    }
 
 
     public List<Tarea> listaTareas() {

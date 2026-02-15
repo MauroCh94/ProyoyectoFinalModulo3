@@ -1,8 +1,10 @@
 package com.devmaos.service;
 import com.devmaos.model.Tarea;
+import com.devmaos.exceptions.InvalidTareaException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.util.List;
 
@@ -59,8 +61,32 @@ class tareaserviceTest {
     @DisplayName("Test para agregar una tarea con ID duplicado")
     public void testAgregarTareaConIdDuplicado() {
         servicio.agregarTarea(6, "Tarea 6", "Descripción de la tarea 6", false);
-        servicio.agregarTarea(6, "Tarea 6 Duplicada", "Descripción de la tarea 6 duplicada", false);
-        assertEquals(2, servicio.listaTareas().size());
+        assertThrows(InvalidTareaException.class, () -> {
+            servicio.agregarTarea(6, "Tarea 6 Duplicada", "Descripción de la tarea duplicada", false);
+        });
+        assertEquals(1, servicio.listaTareas().size());
+    }
+
+    @Test
+    @DisplayName("Test para agregar una tarea con ID inválido")
+    public void testAgregarTareaConIdInvalido() {
+        assertThrows(InvalidTareaException.class, () -> {
+            servicio.agregarTarea(0, "Tarea", "Descripción", false);
+        });
+        assertThrows(InvalidTareaException.class, () -> {
+            servicio.agregarTarea(-1, "Tarea", "Descripción", false);
+        });
+    }
+
+    @Test
+    @DisplayName("Test para agregar una tarea con título vacío")
+    public void testAgregarTareaConTituloVacio() {
+        assertThrows(InvalidTareaException.class, () -> {
+            servicio.agregarTarea(7, "", "Descripción", false);
+        });
+        assertThrows(InvalidTareaException.class, () -> {
+            servicio.agregarTarea(8, null, "Descripción", false);
+        });
     }
 
 
